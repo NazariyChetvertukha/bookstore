@@ -29,15 +29,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="999a1196-c7f3-4e2f-9eef-75eef22944c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/domain/Store/BookService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore.sln" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presentation/Store.Web/Controllers/BookController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.bookstore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bookstore/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.bookstore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bookstore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/Store.Test/BookServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Store.Test/BookServiceTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/Store/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Store/Book.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/Store/BookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Store/BookService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/Store/IBookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Store/IBookRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/Store/Store.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Store/Store.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/Store.Memory/BookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/Store.Memory/BookRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/Store.Web/Controllers/SearchController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/Store.Web/Controllers/SearchController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/Store.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/Store.Web/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/Store.Web/Views/Search/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/Store.Web/Views/Search/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/Store.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/Store.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/Store.Web/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/Store.Web/Views/_ViewImports.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +53,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domain/Store/IBookRepository.cs" />
-        <option value="$PROJECT_DIR$/presentation/Store.Web/Controllers/SearchController.cs" />
-        <option value="$PROJECT_DIR$/domain/Store/BookService.cs" />
         <option value="$PROJECT_DIR$/domain/Store.Test/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/domain/Store/AssemblyProperties.cs" />
         <option value="$PROJECT_DIR$/domain/Store.Test/Store.Test.csproj" />
         <option value="$PROJECT_DIR$/domain/Store.Test/StoreTests.cs" />
         <option value="$PROJECT_DIR$/domain/Store.Test/BookTests.cs" />
-        <option value="$PROJECT_DIR$/domain/Store/Book.cs" />
-        <option value="$PROJECT_DIR$/domain/Store.Test/BookServiceTests.cs" />
-        <option value="$PROJECT_DIR$/presentation/Store.Web/Views/Search/Index.cshtml" />
-        <option value="$PROJECT_DIR$/infrastructure/Store.Memory/BookRepository.cs" />
         <option value="$PROJECT_DIR$/presentation/Store.Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/presentation/Store.Web/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/presentation/Store.Web/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/presentation/Store.Web/Controllers/HmmController.cs" />
+        <option value="$PROJECT_DIR$/presentation/Store.Web/Controllers/SearchController.cs" />
+        <option value="$PROJECT_DIR$/presentation/Store.Web/Views/Search/Index.cshtml" />
+        <option value="$PROJECT_DIR$/presentation/Store.Web/Controllers/BookController.cs" />
+        <option value="$PROJECT_DIR$/domain/Store/IBookRepository.cs" />
+        <option value="$PROJECT_DIR$/domain/Store/BookService.cs" />
+        <option value="$PROJECT_DIR$/domain/Store/Book.cs" />
+        <option value="$PROJECT_DIR$/infrastructure/Store.Memory/BookRepository.cs" />
+        <option value="$PROJECT_DIR$/domain/Store.Test/BookServiceTests.cs" />
+        <option value="$PROJECT_DIR$/presentation/Store.Web/Views/Book/Index.cshtml" />
+        <option value="$PROJECT_DIR$/presentation/Store.Web/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
@@ -120,8 +129,18 @@
       <option name="presentableId" value="Default" />
       <updated>1604686685257</updated>
       <workItem from="1604686825291" duration="279000" />
-      <workItem from="1604781964135" duration="8397000" />
+      <workItem from="1604781964135" duration="8777000" />
+      <workItem from="1605805876309" duration="7912000" />
+      <workItem from="1605819394216" duration="3850000" />
     </task>
+    <task id="LOCAL-00001" summary="Added and fixed">
+      <created>1604794196520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604794196520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,11 +170,30 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added and fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and fixed" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1540" height="220" key="GridCell.Tab.0.bottom" timestamp="1604794447355">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1540" height="220" key="GridCell.Tab.0.bottom/0.40.1600.860@0.40.1600.860" timestamp="1604794447355" />
+    <state width="1540" height="220" key="GridCell.Tab.0.center" timestamp="1604794447354">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1540" height="220" key="GridCell.Tab.0.center/0.40.1600.860@0.40.1600.860" timestamp="1604794447354" />
+    <state width="1540" height="220" key="GridCell.Tab.0.left" timestamp="1604794447354">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1540" height="220" key="GridCell.Tab.0.left/0.40.1600.860@0.40.1600.860" timestamp="1604794447354" />
+    <state width="1540" height="220" key="GridCell.Tab.0.right" timestamp="1604794447355">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1540" height="220" key="GridCell.Tab.0.right/0.40.1600.860@0.40.1600.860" timestamp="1604794447355" />
     <state x="392" y="202" key="Rider.ProjectTemplateDialog.Size" timestamp="1604788980390">
       <screen x="0" y="40" width="1600" height="860" />
     </state>
@@ -172,10 +210,10 @@
       <screen x="0" y="40" width="1600" height="860" />
     </state>
     <state x="480" y="229" key="WebReferenceSession.Dialog/0.40.1600.860@0.40.1600.860" timestamp="1604788626905" />
-    <state x="456" y="217" key="run.anything.popup" timestamp="1604788303315">
+    <state x="456" y="217" key="run.anything.popup" timestamp="1605820457616">
       <screen x="0" y="40" width="1600" height="860" />
     </state>
-    <state x="456" y="217" key="run.anything.popup/0.40.1600.860@0.40.1600.860" timestamp="1604788303315" />
+    <state x="456" y="217" key="run.anything.popup/0.40.1600.860@0.40.1600.860" timestamp="1605820457616" />
     <state x="463" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1604793384277">
       <screen x="0" y="40" width="1600" height="860" />
     </state>

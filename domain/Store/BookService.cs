@@ -8,9 +8,12 @@
         {
             this.bookRepository = bookRepository;
         }
-        public  Book[] GetAllByQuery(string query)
+
+        public Book[] GetAllByQuery(string query)
         {
-            return Book.IsIsbn(query) ? bookRepository.GetAllByIsdn(query) : bookRepository.GetAllByTitleOrAuthor(query);
+            return Book.IsIsbn(query)
+                ? bookRepository.GetAllByIsdn(query)
+                : bookRepository.GetAllByTitleOrAuthor(query);
         }
     }
 }

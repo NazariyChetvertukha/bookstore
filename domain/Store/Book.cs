@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 
 namespace Store
@@ -12,12 +13,17 @@ namespace Store
 
         public string Isbn { get; }
 
-        public Book(int id, string isdn, string author, string title)
+        public decimal Price { get; }
+        
+        public string Description { get; }
+        public Book(int id, string isbn, string author, string title, string description,decimal price )
         {
             Id = id;
             Title = title;
-            Isbn = isdn;
+            Isbn = isbn;
             Author = author;
+            Price = price;
+            Description = description;
         }
 
         internal static bool IsIsbn(string s)

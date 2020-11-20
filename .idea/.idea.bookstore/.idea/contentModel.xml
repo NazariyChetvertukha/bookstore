@@ -65,10 +65,12 @@
           <e p="bin" t="ExcludeRecursive" />
           <e p="Controllers" t="Include">
             <e p="BookController.cs" t="Include" />
+            <e p="CartController.cs" t="Include" />
             <e p="HomeController.cs" t="Include" />
             <e p="SearchController.cs" t="Include" />
           </e>
           <e p="Models" t="Include">
+            <e p="Cart.cs" t="Include" />
             <e p="ErrorViewModel.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">
@@ -83,6 +85,7 @@
           <e p="Properties" t="Include">
             <e p="launchSettings.json" t="Include" />
           </e>
+          <e p="SessionExtensions.cs" t="Include" />
           <e p="Startup.cs" t="Include" />
           <e p="Store.Web.csproj" t="IncludeRecursive" />
           <e p="Views" t="Include">

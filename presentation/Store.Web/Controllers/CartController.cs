@@ -30,7 +30,7 @@ namespace Store.Web.Controllers
 
             HttpContext.Session.Set(cart);
 
-            return RedirectToAction("Index", "Book", new {id});
+            return RedirectToAction("Index", "Book", new {id = id});
 
         }
     }

@@ -32,10 +32,9 @@ namespace Store.Memory
                 .ToArray();
         }
         
-        public Book GetById(in int id)
+        public Book GetById(int id)
         {
-            var i = id;
-            return books.Single(book => book.Id == i);
+            return books.Single(book => book.Id == id);
         }
     }
 }

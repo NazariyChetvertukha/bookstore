@@ -45,6 +45,7 @@ namespace Store.Web
                         var bookId = reader.ReadInt32();
                         var count = reader.ReadInt32();
 
+                        value.Items.Add(bookId, count);
                     }
 
                     value.Amount = reader.ReadDecimal();

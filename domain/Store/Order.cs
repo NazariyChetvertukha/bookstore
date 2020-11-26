@@ -9,7 +9,7 @@ namespace Store
         public int Id { get; }
         private List<OrderItem> items;
 
-        public IReadOnlyCollection<OrderItem> Item
+        public IReadOnlyCollection<OrderItem> Items
         {
             get { return items; }
         }

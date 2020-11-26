@@ -20,6 +20,7 @@
           <e p="Book.cs" t="Include" />
           <e p="BookService.cs" t="Include" />
           <e p="IBookRepository.cs" t="Include" />
+          <e p="IOrderRepository.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netstandard2.0" t="Include">
@@ -27,6 +28,8 @@
               </e>
             </e>
           </e>
+          <e p="Order.cs" t="Include" />
+          <e p="OrderItem.cs" t="Include" />
           <e p="Store.csproj" t="IncludeRecursive" />
         </e>
         <e p="Store.Test" t="IncludeRecursive">
@@ -40,6 +43,8 @@
               </e>
             </e>
           </e>
+          <e p="OrderItemTests.cs" t="Include" />
+          <e p="OrderTests.cs" t="Include" />
           <e p="Store.Test.csproj" t="IncludeRecursive" />
         </e>
       </e>
@@ -54,6 +59,7 @@
               </e>
             </e>
           </e>
+          <e p="OrderRepository.cs" t="Include" />
           <e p="Store.Memory.csproj" t="IncludeRecursive" />
         </e>
       </e>
@@ -65,13 +71,15 @@
           <e p="bin" t="ExcludeRecursive" />
           <e p="Controllers" t="Include">
             <e p="BookController.cs" t="Include" />
-            <e p="CartController.cs" t="Include" />
             <e p="HomeController.cs" t="Include" />
+            <e p="OrderController.cs" t="Include" />
             <e p="SearchController.cs" t="Include" />
           </e>
           <e p="Models" t="Include">
             <e p="Cart.cs" t="Include" />
             <e p="ErrorViewModel.cs" t="Include" />
+            <e p="OrderItemModel.cs" t="Include" />
+            <e p="OrderModel.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -95,6 +103,10 @@
               <e p="Index.cshtml" t="Include" />
             </e>
             <e p="Home" t="Include">
+              <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="Order" t="Include">
+              <e p="Empty.cshtml" t="Include" />
               <e p="Index.cshtml" t="Include" />
             </e>
             <e p="Search" t="Include">

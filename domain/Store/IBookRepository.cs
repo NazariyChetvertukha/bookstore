@@ -10,6 +10,9 @@ namespace Store
         
         Book[] GetAllByTitleOrAuthor(string query);
         
-        Book GetById(int id);
+        Book GetById(in int id);
+
+
+        Book[] GetAllByIds(IEnumerable<int> bookIds);
     }
 }

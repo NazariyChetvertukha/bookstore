@@ -28,24 +28,14 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:features" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:features/6" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="999a1196-c7f3-4e2f-9eef-75eef22944c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/presentation/Store.Web/Models/OrderItemModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presentation/Store.Web/Models/OrderModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presentation/Store.Web/Views/Order/Empty.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presentation/Store.Web/Views/Order/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.bookstore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bookstore/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.bookstore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bookstore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/Store/IBookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Store/IBookRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/Store/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Store/Order.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/Store.Memory/BookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/Store.Memory/BookRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/Store.Web/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/Store.Web/Controllers/OrderController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/Store.Web/Views/Book/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/Store.Web/Views/Book/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/Store.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/Store.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +46,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/ADMIN/source/repos/bookstore/presentation/Store.Web/Views/Order/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/infrastructure/Store.Memory/BookRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/presentation/Store.Web/Controllers/OrderController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ADMIN/source/repos/bookstore/domain/Store/IBookRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ADMIN/source/repos/bookstore/domain/Store/IBookRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,7 +150,7 @@
       <workItem from="1605805876309" duration="7912000" />
       <workItem from="1605819394216" duration="5083000" />
       <workItem from="1606321782261" duration="143000" />
-      <workItem from="1606322247459" duration="17976000" />
+      <workItem from="1606322247459" duration="18976000" />
     </task>
     <task id="LOCAL-00001" summary="Added and fixed">
       <created>1604794196520</created>
@@ -513,7 +506,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="features/6" />
                       </list>
                     </value>
                   </entry>
@@ -533,22 +526,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added new feature and cleanup" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1557" height="225" key="GridCell.Tab.0.bottom" timestamp="1606385931540">
+    <state x="92" y="132" width="1416" height="676" key="DiffContextDialog" timestamp="1606408652032">
       <screen x="0" y="40" width="1600" height="860" />
     </state>
-    <state width="1557" height="225" key="GridCell.Tab.0.bottom/0.40.1600.860@0.40.1600.860" timestamp="1606385931540" />
-    <state width="1557" height="225" key="GridCell.Tab.0.center" timestamp="1606385931540">
+    <state x="92" y="132" width="1416" height="676" key="DiffContextDialog/0.40.1600.860@0.40.1600.860" timestamp="1606408652032" />
+    <state width="1557" height="225" key="GridCell.Tab.0.bottom" timestamp="1606407368607">
       <screen x="0" y="40" width="1600" height="860" />
     </state>
-    <state width="1557" height="225" key="GridCell.Tab.0.center/0.40.1600.860@0.40.1600.860" timestamp="1606385931540" />
-    <state width="1557" height="225" key="GridCell.Tab.0.left" timestamp="1606385931539">
+    <state width="1557" height="225" key="GridCell.Tab.0.bottom/0.40.1600.860@0.40.1600.860" timestamp="1606407368607" />
+    <state width="1557" height="225" key="GridCell.Tab.0.center" timestamp="1606407368607">
       <screen x="0" y="40" width="1600" height="860" />
     </state>
-    <state width="1557" height="225" key="GridCell.Tab.0.left/0.40.1600.860@0.40.1600.860" timestamp="1606385931539" />
-    <state width="1557" height="225" key="GridCell.Tab.0.right" timestamp="1606385931540">
+    <state width="1557" height="225" key="GridCell.Tab.0.center/0.40.1600.860@0.40.1600.860" timestamp="1606407368607" />
+    <state width="1557" height="225" key="GridCell.Tab.0.left" timestamp="1606407368606">
       <screen x="0" y="40" width="1600" height="860" />
     </state>
-    <state width="1557" height="225" key="GridCell.Tab.0.right/0.40.1600.860@0.40.1600.860" timestamp="1606385931540" />
+    <state width="1557" height="225" key="GridCell.Tab.0.left/0.40.1600.860@0.40.1600.860" timestamp="1606407368606" />
+    <state width="1557" height="225" key="GridCell.Tab.0.right" timestamp="1606407368607">
+      <screen x="0" y="40" width="1600" height="860" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.right/0.40.1600.860@0.40.1600.860" timestamp="1606407368607" />
     <state x="392" y="202" key="Rider.ProjectTemplateDialog.Size" timestamp="1604788980390">
       <screen x="0" y="40" width="1600" height="860" />
     </state>
